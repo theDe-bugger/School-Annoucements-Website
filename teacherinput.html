@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>TeacherInput</title>
+	<script src = "teacherinput.js"></script>
+	<link rel ="stylesheet" type = "text/css" href = "teacherinput.css">
+</head>
+
+<body>
+	<label class = "title">Teacher Input</label>
+	<form>
+		<div>
+			<div class = "name">
+				<label for = 'name' class = "top center headfont">Name: </label><br>
+				<input name = 'name' id = 'tname'type = 'text' required>
+			</div>
+
+			<div class = "email">
+				<label for = 'email' class = "top headfont">Email: </label><br>
+				<input name = 'email' id = 'temail'type = 'text' required>
+			</div>
+			<div>
+				<textarea name = 'announcement' class = "announcement"rows = "8" cols = "80" id = 'announcement' type ='text' required placeholder = 'Type your announcement here...'></textarea>
+			</div>
+				<div name = "Grade" class = "grade">
+					<label for = "Grade" class = "optionheadfont">Grade(s): </label><br>
+					<div class = "optionsfont">
+						<input type = "checkbox" name = "tgrade" value = "9">Grade 9<br>
+						<input type = "checkbox" name = "tgrade" value = "10">Grade 10<br>
+						<input type = "checkbox" name = "tgrade" value = "11">Grade 11<br>
+						<input type = "checkbox" name = "tgrade" value = "12">Grade 12<br>
+					</div>
+				</div>
+				<div name = "tclub" class = "club">
+					<label for = "Clubs" class = "optionheadfont">Clubs & Teams: </label><br>
+					<div class = "optionsfont">
+						<input name = 'tclub' id ='Deca' type ='radio' value ='Deca'>
+						<label for = "Deca" >Deca</label><br>
+						<input name = 'tclub' id ='HOSA' type ='radio' value ='HOSA'>
+						<label for = "HOSA">HOSA</label><br>
+						<input name = 'tclub' id ='Computer Club' type ='radio' value ='Computer Club'>
+						<label for = "Computer Club">Computer Club</label><br>
+						<input name = 'tclub' id ='Cricket Team' type ='radio' value ='Cricket Team'>
+						<label for = "Cricket Team">Cricket Team</label><br>
+						<input name = 'tclub' id ='All' type ='radio' value ='All'>
+						<label for = "All">All</label><br>
+					</div>
+				</div>
+			<div name = "Gender" class = " gender">
+				<label for = "Gender" class = "optionheadfont">Gender: </label><br>
+				<div class = "optionsfont">
+					<input name = 'tgender' id ='male' type ='radio' value ='Male'>
+					<label for = "male">Male</label><br>
+					<input name = 'tgender' id = 'female' type ='radio' value = 'Female'>
+					<label for = "female">Female</label><br>
+					<input name = 'tgender' id = 'all' type ='radio' value = 'All'>
+					<label for = "all">All</label><br>
+				</div>
+ 			</div>
+ 		</div>
+ 		<input type ="submit" onclick="getData()" class = "submit">
+	</form>
+</body>
+</html>

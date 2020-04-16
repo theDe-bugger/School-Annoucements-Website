@@ -1,0 +1,98 @@
+/*CSS for studentoptions page
+-only adding comments for concepts which I learned off the internet and were not expected of me in the course,
+-I manually set locations of each object on the pages as a pose to the relative positioning used in the hub and announcements page
+*/
+body {
+	background-color: rgb(59,59,59);
+}
+.title{
+	font-family:American Typewriter;
+	white-space: pre;
+	color:black;
+	width:115%;
+	font-size:80px;
+	display:block;
+	background-color:orange;
+	margin-left: -100px;
+   	margin-right: -100px;
+   	text-align:center;
+   	margin-bottom:100px;
+}
+.top{
+	position:relative;
+	vertical-align: bottom;
+}
+.center{
+	display:inline-block;
+	text-align:center;
+}
+
+.grade{
+	background:orange;
+	border-radius:15px;
+	border:5px solid black;
+	display:inline-block;
+	float:left;
+	margin-left:300px;
+	padding:5px;
+}
+
+.optionsfont{
+	margin-top:3px;
+	font-size:20px;
+	color:black;
+	font-family:Adobe Naksh;
+	background:white;
+	border:5px solid orange;
+}
+.optionheadfont{
+	font-size:40px;
+	font-family:Adobe Naksh;
+	color:black;
+	background-color:orange;
+	margin-bottom: 10px;
+	border-bottom: 4px solid black;
+}
+.club{
+	background:orange;
+	display:inline-block;
+	position:absolute;
+	border-radius:15px;
+	border:5px solid black;
+	margin-left:110px;
+	margin-right:110px;
+	padding:5px;
+}
+.gender{
+	border-radius:15px;
+	border:5px solid black;
+	background:orange;
+	float:right;
+	display:inline-block;
+	margin-right:300px;
+	padding:5px;
+}
+
+.submit{
+	border-radius:20px;
+	border:solid white 5px;
+	background-color:black;
+	color:orange;
+	font-family:Adobe Naksh;
+	display:inline-block;
+	margin-left:165px;
+	margin-top:320px;
+	font-size:50px;
+}
+/*special style: hover; which shows a glow when cursor goes over one of the images*/
+button:hover{
+	/*outer glow design using box feature*/
+    box-shadow: 0 0 30px white;
+}
+
+
+
+
+
+
+

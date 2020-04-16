@@ -1,0 +1,146 @@
+/*CSS for teacherinput page
+-only adding comments for concepts which I learned off the internet and were not expected of me in the course,
+-I manually set locations of each object on the pages as a pose to the relative positioning used in the hub and announcements page
+*/
+body {
+	background-color: rgb(59,59,59);
+}
+/*
+Sets up the entire form border
+*/ 
+.form{
+	border-radius:20px;
+	border:5px solid black;
+}
+.title{
+	font-family:American Typewriter;
+	white-space: pre;
+	color:black;
+	width:115%;
+	font-size:80px;
+	display:block;
+	background-color:darkorange;
+	margin-left: -100px;
+   	margin-right: -100px;
+   	margin-bottom:20px;
+   	text-align:center;
+}
+/*
+Class used for both texts at top of screen
+*/ 
+.headfont{
+	font-size:40px;
+	font-family:Adobe Naksh;
+	color:black;
+	background-color:darkorange;
+}
+.name{
+	background: darkorange;
+	border: solid black 5px;
+	border-radius:15px;
+	display:inline-block;
+	float:left;
+	margin-left:500px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:5px;
+	color:black;
+}
+.top{
+	position:relative;
+	vertical-align: bottom;
+}
+.center{
+	display:inline-block;
+	text-align:center;
+}
+.email{
+	background:darkorange;
+	border:solid black 5px;
+	border-radius:15px;
+	color:black;
+	display:inline-block;
+	float:right;
+	margin-right:500px;
+	margin-top:10px;
+	padding:5px;
+}
+.announcement{
+	display:inline-block;
+	border:5px solid darkorange;
+	border-radius:20px;
+	padding:5px;
+	margin-left:457px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.grade{
+	background:darkorange;
+	border-radius:15px;
+	border:5px solid black;
+	display:inline-block;
+	float:left;
+	margin-left:300px;
+	padding:5px;
+}
+
+.optionsfont{
+	font-size:20px;
+	font-family:Adobe Naksh;
+	color:black
+	background: solid white;
+	border-radius:5px;
+	border:5px solid darkorange;
+}
+.optionheadfont{
+	font-size:40px;
+	font-family:Adobe Naksh;
+	color:black;
+	background-color:darkorange;
+	border-bottom: 4px solid black;
+}
+.club{
+	background:darkorange;
+	display:inline-block;
+	position:absolute;
+	border-radius:15px;
+	border:5px solid black;
+	margin-left:110px;
+	margin-right:110px;
+	padding:5px;
+}
+.gender{
+	border-radius:15px;
+	border:5px solid black;
+	background:darkorange;
+	float:right;
+	display:inline-block;
+	margin-right:300px;
+	padding:5px;
+}
+
+.submit{
+	border-radius:20px;
+	border:solid black 5px;
+	background-color:white;
+	color:darkorange;
+	font-family:Adobe Naksh;
+	display:inline-block;
+	margin-left:165px;
+	margin-top:220px;
+	font-size:50px;
+}
+/*special style: hover; which shows a glow when cursor goes over one of the images*/
+.submit:hover{
+	/*outer glow design using box feature*/
+    box-shadow: 0 0 30px white;
+}
+
+input[type = "checkbox"]{
+	background-color:blue;
+}
+
+
+
+

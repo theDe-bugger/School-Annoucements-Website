@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Options</title>
+	<script src = "studentoptions.js"></script>
+	<link rel ="stylesheet" type = "text/css" href = "studentoptions.css">
+</head>
+
+
+<body>
+
+	<label class = "title">Student Options</label>
+
+	<form>
+		<div>
+				<div name = "Grade" class = "grade">
+					<label for = "Grade" class = "optionheadfont">Grade(s): </label><br>
+					<div class = "optionsfont">
+						<input type = "radio" name = "sgrade" value = "9">Grade 9<br>
+						<input type = "radio" name = "sgrade" value = "10">Grade 10<br>
+						<input type = "radio" name = "sgrade" value = "11">Grade 11<br>
+						<input type = "radio" name = "sgrade" value = "12">Grade 12<br>
+					</div>
+				</div>
+			
+				<div name = "tclub" class = "club">
+					<label for = "Clubs" class = "optionheadfont">Clubs & Teams: </label><br>
+					<div class = "optionsfont">
+						<input name = 'sclub' id ='Deca' type ='checkbox' value ='Deca'>
+						<label for = "Deca" >Deca</label><br>
+						<input name = 'sclub' id ='HOSA' type ='checkbox' value ='HOSA'>
+						<label for = "HOSA">HOSA</label><br>
+						<input name = 'sclub' id ='Computer Club' type ='checkbox' value ='Computer Club'>
+						<label for = "Computer Club">Computer Club</label><br>
+						<input name = 'sclub' id ='Cricket Team' type ='checkbox' value ='Cricket Team'>
+						<label for = "Cricket Team">Cricket Team</label><br>
+						<input name = 'sclub' id ='SAC' type ='checkbox' value ='SAC'>
+						<label for = "SAC" >SAC</label><br>
+						<input name = 'sclub' id ='Arts Council' type ='checkbox' value ='Arts Council'>
+						<label for = "Arts Council">Arts Council</label><br>
+						<input name = 'sclub' id ='Robotics' type ='checkbox' value ='Robotics'>
+						<label for = "Robotics">Robotics</label><br>
+						<input name = 'sclub' id ='Basketball Team' type ='checkbox' value ='Basketball Team'>
+						<label for = "Basketball Team">Basketball Team</label><br>
+					</div>
+				</div>
+			
+			<div name = "Gender" class = "gender">
+				<label for = "Gender" class = "optionheadfont">Gender: </label><br>
+				<div class = "optionsfont">
+					<input name = 'sgender' id ='male' type ='radio' value ='Male'>
+					<label for = "male">Male</label><br>
+					<input name = 'sgender' id = 'female' type ='radio' value = 'Female'>
+					<label for = "female">Female</label><br>
+				</div>
+ 			</div>
+ 		</div>
+	</form>
+	<a href = "announcements.html"><button onclick="getData()" class = "submit">Submit</button></a>
+</body>
+</html>

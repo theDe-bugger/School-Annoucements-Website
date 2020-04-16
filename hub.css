@@ -1,0 +1,153 @@
+/*CSS for HUB page
+-only adding comments for concepts which I learned off the internet and were not expected of me in the course
+*/
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Adobe Naksh;
+	height:100%;
+	background:rgb(59,59,59);
+}
+
+/*Styling for links*/
+a{
+	text-decoration:none;
+	/*delays page switch to allow for an easier transition, good design*/
+	transition:all 1s;
+	color:white;
+}
+
+section{
+ padding:5px;
+ margin-bottom:0px;
+ background:rgb(59,59,59);
+ text-align:center;
+}
+
+#outer{
+	min-height: 100%;
+	max-width:1500px;
+	background: rgb(59,59,59);
+}
+
+#main{
+	/*Made a grid for holding the several symbols and labels, easier to style*/
+	display:grid;
+	/*Set the columns, 3 of them and repeat*/
+	grid-template-columns: repeat(3,1fr);
+	height:200px;
+	grid-gap:0px;
+	margin: 10px;
+	padding-bottom:100px;
+	background-color:rgb(59,59,59);
+	border:10px solid darkorange;
+	border-radius:10px;
+}
+
+header{
+	width:auto;
+	margin: 0px auto;
+}
+
+header h1{
+	/*Styling page title*/
+	height:70px;
+	margin-top:10px;
+	font-family:American Typewriter;
+	font-size:60px;
+	color:white;
+	background-color:darkorange;
+	background-size:1000px;
+	margin-bottom: 5px;
+}
+
+
+img{
+	/*Styling all images with their base design*/
+	display:inline-block;
+	margin-top:20px;
+	padding:5px;
+	border:4px solid darkorange;
+	border-radius:50%;
+	background-color:white;
+	margin-bottom:5px;
+}
+
+/*special style: hover; which shows a glow when cursor goes over one of the images*/
+img:hover{
+	/*outer glow design using box feature*/
+    box-shadow: 0 0 30px white;
+}
+
+label{
+	/*Styling for all labels with their base design*/
+	margin:auto;
+	font-family:American Typewriter;
+	font-size:20px;
+	color:white;
+	margin-top:0px;
+	width:175px;
+}
+
+/*Styling each label group with specifications*/
+.name{
+	background:darkorange;
+	border:5px white solid;
+	border-bottom:none;
+	background-size: 20px;
+	margin-bottom:0px;
+}
+.np{
+	background:darkorange;
+	border:5px white solid;
+	background-size: 20px;
+	margin-bottom:0px;
+}
+.at{
+	margin-top:0px;
+	background:darkorange;
+	border:5px white solid;
+	border-top:none;
+	background-size: 20px;
+}
+/*Styling for the main page ends and styling for footer begins*/
+#foot{
+	position:absolute;
+	height:auto;
+	/*Set footer at bottom of page*/
+	bottom:0;
+	background-color:rgb(0,0,0);
+	width:100%;
+}
+
+h4{
+	/*Styling footer title*/
+	display:inline-block;
+	margin-top:5px;
+	font-size:50px;
+	width:5 0%;
+	color:white;
+	background-color:darkorange;
+	border:3px solid white;
+	border-radius:10px;
+	font-family:Adobe Naksh;
+	padding: 1px;
+	margin-bottom:5px;
+}
+
+.btn{
+	/*Styling for buttons*/
+	display:inline-block;
+	padding:5px 10px;
+	border:4px solid darkorange;
+	border-radius: 15px;
+	background: white;
+	margin:5px;
+	font-size:40px;
+	color: darkorange;
+}
+/*special style: hover; which shows a glow when cursor goes over one of the links/buttons*/
+footer a:hover{
+	/*outer glow design using box feature*/
+    box-shadow: 0 0 30px white;
+}

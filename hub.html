@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>North Park Web</title>
+	<!-- Links to css and javascript -->
+	<link rel="stylesheet" type="text/css" href="hub.css">
+	<script src = "hub.js"></script>
+</head>
+<body>
+	<!-- Creating section for ease of styling-->
+	<section>
+		<!-- div to group everything together except the buttons -->
+		<div id = "outer" class = "container">
+			<header>
+				<h1>North Park HUB</h1>
+			</header>
+			<div id = "main">
+				<!-- Links to school websites and social media -->
+				<a href = "https://www.instagram.com/northparkss/?hl=en" target = "_blank"><img src = "https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300" width = '125' height = '125'></a>
+				<a href = "https://twitter.com/northparkssca?lang=en" target = "_blank"><img src ="http://pluspng.com/img-png/twitter-logo-png-twitter-logo-vector-png-clipart-library-518.png"width = '125' height = '125'></a>
+				<a href = "http://schools.peelschools.org/sec/northpark/Pages/default.aspx" target = "_blank"><img src = "https://pbs.twimg.com/profile_images/665225941057036288/xXpVpaZ__400x400.png" width = '125' height = '125'></a>
+				<label class = "name">Instagram</label>
+				<label class = "name">Twitter</label>
+				<label class = "np">North Park Website</label>
+				<label class = "at">@northparkss</label>
+				<label class = "at">@NorthParkSSca</label>
+			</div>
+		</div>
+		<!-- Footer which holds the buttons to lead to other pages (student and teacher) -->
+		<footer id ='foot'>
+			<h4>Announcement Website</h4>
+			<div id = "buttons">
+				<a href = "studentoptions.html" class = "btn">Student Login</a>
+				<a href = "teacherinput.html" onclick= "requestPass()" class = "btn">Teacher Login</a>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
